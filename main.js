@@ -10,10 +10,18 @@ console.log(personne);
 personne.age = 25;
 console.log(personne);
 // Créez un deuxième objet "animal" avec les propriétés suivantes : espèce, couleur, nombre de pattes. Affichez cet objet dans la console.
-let animal = {
-  nom: "Lion",
-  espece: "Mammifères ",
-  couleur: "fauve",
-  Nombre_de_pattes: 4,
-};
-console.log(animal);
+let animal = [
+  {
+    nom: "Lion",
+    espece: "Mammifères ",
+    couleur: "fauve",
+    Nombre_de_pattes: 4,
+  },
+  {
+    nom: "Lapin",
+    espece: "Mammifères ",
+    couleur: "blanche",
+    Nombre_de_pattes: 4,
+  },
+];
+console.table(animal);
